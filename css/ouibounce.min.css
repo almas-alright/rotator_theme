@@ -18,7 +18,7 @@ body{margin:0;padding:0}
 	z-index:999;
 	}
 	#popup img{
-	border:10px solid #fff;
+	/*border:10px solid #fff;*/
 	border-radius: 30px;
 	}
 	/*#popup_img{display:none}*/

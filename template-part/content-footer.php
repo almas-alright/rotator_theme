@@ -25,7 +25,7 @@
                             <div class="p-u-inner">
                                 <p>Receive A Free 30 Day Supply Of Garcinia Cambogia Extract™ Trial Promotion Ends: Friday, February 10, 2017 Pay Only a Small Shipping Fee - Less than $5</p>
                                 <div class="pop-footer-title pull-left"><span>Yes I Want To</span>
-                                    Eliminate My ED</div><figure><img class="img-responsive" src="<?php print(IMG); ?>pro.png" alt="images"></figure>
+                                    Eliminate My ED</div><figure><?php echo do_shortcode('[step-img step="1" class="img-responsive"]'); ?></figure>
 
                                 <small>*Only 5 Trials Left</small>
                             </div>

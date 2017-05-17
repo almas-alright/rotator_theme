@@ -1,5 +1,6 @@
 <?php
 get_header();
+
 get_template_part('template-part/nav', 'main');
 ?>
 
@@ -17,13 +18,14 @@ get_template_part('template-part/nav', 'main');
                     $title = get_the_title();
                     $content = get_the_content();
                 endwhile;
-                
                 echo do_shortcode($content);
                 get_template_part('template-part/comment');
-                
                 ?>
+
             </div>
+
             <?php get_sidebar(); ?>
+
         </div>
     </div>
 </section>

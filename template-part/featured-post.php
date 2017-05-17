@@ -5,7 +5,7 @@ $fp = new WP_Query(
     'post_type' => 'post',
     'meta_key' => '_is_ns_featured_post',
     'meta_value' => 'yes',
-    'posts_per_page' => 1,
+    'posts_per_page' => 6,
         )
 );
 if ($fp->have_posts()) : while ($fp->have_posts()) : $fp->the_post();

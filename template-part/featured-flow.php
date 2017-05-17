@@ -3,9 +3,15 @@
 $fp = new WP_Query(
         array(
     'post_type' => 'post',
-    'meta_key' => '_is_ns_featured_post',
-    'meta_value' => 'yes',
-    'posts_per_page' => 1,
+    'meta_query' => array(
+        array(
+            'key' => '_is_ns_featured_post',
+//            'value' => 'yes',
+            'compare' => 'NOT EXISTS',
+        ),
+    ),
+    'posts_per_page' => -1,
+    'order' => 'asc',
         )
 );
 if ($fp->have_posts()) : while ($fp->have_posts()) : $fp->the_post();
@@ -20,7 +26,7 @@ if ($fp->have_posts()) : while ($fp->have_posts()) : $fp->the_post();
         $img_big = wp_get_attachment_image_src($attachment_id, 'full', FALSE);
         $excerpt2 = cut_limit(get_the_content(), 12);
 
-        echo '<h2>'.$title.'</h2>';
+        echo '<h2>' . $title . '</h2>';
         if (has_post_thumbnail()) {
             echo '<figure class="mb30">' . $thumb . '</figure>';
         }
