@@ -1,0 +1,182 @@
+@media(max-width:992px){
+
+.top-author-con {
+    padding-left: 0;
+}
+
+.main-menu li a{
+	margin-left: 9px !important;
+	margin-right: 9px !important;
+	font-size: 15px;
+}
+
+
+.text-celebrity {
+	font-size: 18px;
+}
+
+.main-headline {
+	padding: 20px;
+	font-size: 26px;
+}
+
+.sub-headline {
+	font-size: 22px;
+}
+
+h3{
+	font-size: 20px;
+}	
+
+.post-meta {
+	width: 60%;
+}
+
+.xs-top-m-20 {
+	margin-top: 20px;
+}
+
+.img-center-res {
+	margin: auto auto 20px auto;
+	display: block;
+}
+
+.btn-pink {
+	font-size: inherit;
+	margin: 0 auto;
+}
+
+.right-content {
+    padding-left: 0;
+}
+
+.step-number {
+    font-size: 24px;
+    background: #ea198d;
+    padding: 10px;
+    display: inline-block;
+    margin: 15px 0;
+}
+
+}
+
+
+@media (min-width: 320px) and (max-width: 767px){
+
+.top-ads {
+	margin-top: 30px;
+}
+
+.left-content {
+    border-left: none;
+    padding-left:0;
+}
+
+.right-xs-top-t-20 {
+	margin-top: 20px;
+}
+
+.main-menu .navbar-collapse {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.top-ads {
+	margin-top: 30px;
+}
+
+
+.text-celebrity {
+	display: block;
+	font-size: 17px;
+	padding: 5px 5px 5px 30px;
+}
+
+.main-headline {
+	font-size: 22px;
+}
+
+.sub-headline {
+	font-size: 20px;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 10px;
+	margin: 20px 0;
+}
+
+.logo {
+	display: block;
+	margin: 10px auto;
+}
+
+.main-menu .navbar-brand img {
+	margin: 10px 0 0 0;
+}
+
+
+.top-social-icon {
+	text-align: center;
+}
+
+.footer-social-icon {
+	text-align: left;
+}
+
+
+.hos_modal img{max-width:60%}
+
+.top-post {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.stpe-box {
+    background:#dddddd;
+}
+
+.btn-free {
+	margin: 20px 0;
+	font-size: 18px;
+}
+
+.right-title {
+    font-size: 18px;
+}
+
+.top-author-con {
+	margin: 0;
+}
+
+.top-author-con, .share-box {
+	padding: 0 20px;
+}
+
+.share-box {
+	padding: 20px;
+}
+
+.free-box h2{
+    font-size: 22px;
+}
+
+.post-content {
+	border: none;
+	padding: 0;
+}
+
+.main-menu .navbar-brand {
+	height: auto;
+}
+
+.right-content {
+	padding: 0;
+	border: none;
+}
+
+.footer-newsletter {
+	margin: 25px 0;
+}
+
+}
+
+
+

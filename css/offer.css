@@ -1,0 +1,142 @@
+
+body{
+	font-family: 'Poppins', sans-serif;
+
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+.mt30 {
+	margin-top: 30px;
+}
+
+/*Exit pop*/
+
+
+#popup .container {
+    max-width: 880px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 7px solid #ffffff;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.exit-pop-up-holder {
+	background: #817d7c url(../images/pop-up-bg.jpg) no-repeat top/cover;
+	padding: 0 20px 20px 20px;
+	color: #ffffff;
+	text-align: left;
+}
+
+.exit-pop-up-holder .pop-up-title {
+	font-size: 42px;
+	color: #ea198d;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #ffffff;
+	line-height: 1;
+}
+
+
+.exit-pop-up-holder .p-u-inner h2{
+    color: #000;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.exit-pop-up-holder .p-u-inner p{
+    color: #ea198d!important;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-right: 30%;
+}
+
+.exit-pop-up-holder .pop-up-title span {
+	font-size: 50px;
+	color: #ea198d;
+}
+
+.exit-pop-up-holder p {
+	font-size: 12px;
+	font-weight: 900;
+}
+
+.exit-pop-up-holder small{
+	font-weight: 300;
+	font-size: 15px;
+	color: #000;
+	display: block;
+	margin-top: 20px;
+}
+
+.exit-pop-up-holder .list-item {
+	font-weight: 300;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+
+.exit-pop-up-holder .list-item li{
+	margin: 0 0 3px 0;
+	color: #000;
+}
+
+#popup img {
+	border: none;
+}
+
+.pop-footer-title {
+	background: #ea198d;
+	padding: 20px;
+	margin: 40px 0 0 0;
+	font-size: 24px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.pop-footer-title span{
+	display: block;
+	font-weight: 300;
+}
+
+@media screen and (max-width:960px) {
+.exit-pop-up-holder .p-u-inner p{
+	padding-right: 0;
+}
+}
+
+@media screen and (max-width:480px) {
+
+
+.exit-pop-up-holder .pop-up-title {
+	font-size: 50px;
+}
+
+.exit-pop-up-holder .pop-up-title img{
+	width: 50px;
+	height: 50px;
+}
+
+.exit-pop-up-holder .pop-up-title span {
+	font-size: 32px;
+}
+
+.exit-pop-up-holder .list-item {
+	font-size: 15px;
+}
+
+.pop-footer-title {
+	margin: 30px 0;
+}
+
+}
